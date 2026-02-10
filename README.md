@@ -10,7 +10,7 @@
 
 ## 1. Project Title & Description
 
-**Recon-Automation-Bella** adalah tool otomasi berbasis Bash untuk mempercepat fase **Reconnaissance** pada pengujian keamanan web. Tool ini mengintegrasikan beberapa OSINT tools populer untuk menemukan subdomain dan memvalidasi host aktif secara massal dengan sistem logging dan reporting terstruktur.
+**Recon-Automation-Bela** adalah tool otomasi berbasis Bash untuk mempercepat fase **Reconnaissance** pada pengujian keamanan web. Tool ini mengintegrasikan beberapa OSINT tools populer untuk menemukan subdomain dan memvalidasi host aktif secara massal dengan sistem logging dan reporting terstruktur.
 
 ### Tujuan Utama
 Tahap reconnaissance merupakan bagian penting dalam penetration testing. Jika dilakukan secara manual, proses ini bisa memakan waktu lama dan hasilnya sering kali tidak konsisten.
@@ -235,6 +235,7 @@ Script menampilkan:
 ---
 
 ## 📸 8. Screenshots
+Dokumentasi proses input domain, proses tools berjalan, dokumentasi output serta log error & progress 
 
 ### 1. Input Domains 
 <details>
@@ -244,7 +245,6 @@ Script menampilkan:
 > **Deskripsi:** Tahap awal memasukkan daftar target ke dalam file `domains.txt`.
 <br>
 <img src="Screenshots/01.%20Input%20Domains/01-input.txt.png" width="800" alt="Input Domains">
-
 </details>
 
 ---
@@ -268,7 +268,6 @@ Script menampilkan:
 
 > **Deskripsi:** Setelah selesai scan akan muncul table summary hasil recon yang rapi.
 <img src="Screenshots/02. Recon-Proses-Berjalan/03-proses-recon.png" width="800" alt="Execution">
-
 </details>
 
 ---
@@ -313,6 +312,9 @@ Script menampilkan:
 <img src="Screenshots/03. Ouput-Hasil-Recon/05-output-2.2-example.com-subs.txt.png" width="800" alt="Individual Subs 2">
 <br>
 <br>
+</details>
+
+---
 
 ### 4. Logs
 <details>
@@ -332,6 +334,7 @@ Script menampilkan:
 <img src="Screenshots/04. Logs/02-progress.log-2.txt.png" width="800" alt="Progress Log 2">
 
 </details>
+
 ---
 
 ## 9. Kesimpulan
