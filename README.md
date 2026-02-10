@@ -57,6 +57,30 @@ recon-automation-belaagustina/
 │           ├── progress.log     # Log aktivitas script
 │           └── errors.log       # Log error jika ada masalah
 │
+├── Screenshots/                 # Dokumentasi gambar untuk README.md
+│   ├── 01. Input Domains/
+│   │   └── 01-Input.txt.png       
+│   ├── 02. Recon-Proses-Berjalan/
+│   │   ├── 01-Proses-recon.txt.png
+│   │   ├── 02-Proses-recon.txt.png              
+│   │   └── 03-Proses-recon.txt.png        
+│   ├── 03. Ouput-Hasil-Recon/
+│   │   ├── 01-output.png
+│   │   ├── 02-output-1-all-live.txt.png              
+│   │   ├── 02-output-2-all-live.txt.png
+│   │   ├── 03-output-1-all-subdomains.txt.png
+│   │   ├── 03-output-2-all-subdomains.txt.png
+│   │   ├── 04-output-domain-summary.txt.png
+│   │   ├── 05-output-1-example.com-live.txt.png
+│   │   ├── 05-output-2-example.com-live.txt.png
+│   │   ├── 05-output-2.1-example.com-subs.txt.png
+│   │   └── 05-output-2.2-example.com-subs.txt.png        
+│   └── 04. Logs/
+│   │   ├── 01-errors-log.txt.png
+│   │   ├── 02-progress-log-1.txt.png              
+│   │   └── 03-progress-log-2.txt.png     
+│
+│
 └── README.md                    # Dokumentasi project
 
 ```
