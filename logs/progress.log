@@ -1,0 +1,456 @@
+===================================
+Recon process started at 
+===================================
+========== RECON START ==========
+Started at: 2026-02-09 13:31:15
+========== RECON START ==========
+Started at: 2026-02-09 13:42:48
+[2026-02-09 13:42:48] [1/27] Scan domain: facebook.com
+[2026-02-09 13:42:48] Subdomain ditemukan untuk facebook.com: 0
+[2026-02-09 13:42:48] [2/27] Scan domain: twitter.com
+[2026-02-09 13:42:48] Subdomain ditemukan untuk twitter.com: 0
+[2026-02-09 13:42:48] [3/27] Scan domain: adobe.com
+[2026-02-09 13:42:48] Subdomain ditemukan untuk adobe.com: 0
+[2026-02-09 13:42:48] [4/27] Scan domain: akamai.com
+[2026-02-09 13:42:48] Subdomain ditemukan untuk akamai.com: 0
+[2026-02-09 13:42:48] [5/27] Scan domain: zoom.us
+[2026-02-09 13:42:48] Subdomain ditemukan untuk zoom.us: 0
+[2026-02-09 13:42:48] [6/27] Scan domain: tesla.com
+[2026-02-09 13:42:48] Subdomain ditemukan untuk tesla.com: 0
+[2026-02-09 13:42:48] [7/27] Scan domain: github.com
+[2026-02-09 13:42:48] Subdomain ditemukan untuk github.com: 0
+[2026-02-09 13:42:48] [8/27] Scan domain: spotify.com
+[2026-02-09 13:42:48] Subdomain ditemukan untuk spotify.com: 0
+[2026-02-09 13:42:48] [9/27] Scan domain: shopee.com
+[2026-02-09 13:42:48] Subdomain ditemukan untuk shopee.com: 0
+[2026-02-09 13:42:48] [10/27] Scan domain: tokopedia.com
+[2026-02-09 13:42:48] Subdomain ditemukan untuk tokopedia.com: 0
+[2026-02-09 13:42:48] [11/27] Scan domain: kominfo.go.id
+[2026-02-09 13:42:48] Subdomain ditemukan untuk kominfo.go.id: 0
+[2026-02-09 13:42:48] [12/27] Scan domain: gojek.com
+[2026-02-09 13:42:48] Subdomain ditemukan untuk gojek.com: 0
+[2026-02-09 13:42:48] [13/27] Scan domain: grab.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk grab.com: 0
+[2026-02-09 13:42:49] [14/27] Scan domain: traveloka.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk traveloka.com: 0
+[2026-02-09 13:42:49] [15/27] Scan domain: detik.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk detik.com: 0
+[2026-02-09 13:42:49] [16/27] Scan domain: cnnindonesia.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk cnnindonesia.com: 0
+[2026-02-09 13:42:49] [17/27] Scan domain: microsoft.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk microsoft.com: 0
+[2026-02-09 13:42:49] [18/27] Scan domain: apple.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk apple.com: 0
+[2026-02-09 13:42:49] [19/27] Scan domain: amazon.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk amazon.com: 0
+[2026-02-09 13:42:49] [20/27] Scan domain: cloudflare.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk cloudflare.com: 0
+[2026-02-09 13:42:49] [21/27] Scan domain: intel.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk intel.com: 0
+[2026-02-09 13:42:49] [22/27] Scan domain: ibm.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk ibm.com: 0
+[2026-02-09 13:42:49] [23/27] Scan domain: oracle.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk oracle.com: 0
+[2026-02-09 13:42:49] [24/27] Scan domain: paypal.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk paypal.com: 0
+[2026-02-09 13:42:49] [25/27] Scan domain: linkedin.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk linkedin.com: 0
+[2026-02-09 13:42:49] [26/27] Scan domain: mozilla.org
+[2026-02-09 13:42:49] Subdomain ditemukan untuk mozilla.org: 0
+[2026-02-09 13:42:49] [27/27] Scan domain: ubuntu.com
+[2026-02-09 13:42:49] Subdomain ditemukan untuk ubuntu.com: 0
+[2026-02-09 13:42:49] Total subdomain unik: 0
+========== RECON START ==========
+Started at: 2026-02-09 13:46:50
+[2026-02-09 13:46:50] [1/27] Scan domain: facebook.com
+[2026-02-09 13:46:50] Subdomain ditemukan untuk facebook.com: 0
+[2026-02-09 13:46:50] [2/27] Scan domain: twitter.com
+[2026-02-09 13:46:50] Subdomain ditemukan untuk twitter.com: 0
+[2026-02-09 13:46:50] [3/27] Scan domain: adobe.com
+[2026-02-09 13:46:50] Subdomain ditemukan untuk adobe.com: 0
+[2026-02-09 13:46:50] [4/27] Scan domain: akamai.com
+[2026-02-09 13:46:50] Subdomain ditemukan untuk akamai.com: 0
+[2026-02-09 13:46:50] [5/27] Scan domain: zoom.us
+[2026-02-09 13:46:50] Subdomain ditemukan untuk zoom.us: 0
+[2026-02-09 13:46:50] [6/27] Scan domain: tesla.com
+[2026-02-09 13:46:50] Subdomain ditemukan untuk tesla.com: 0
+[2026-02-09 13:46:50] [7/27] Scan domain: github.com
+[2026-02-09 13:46:50] Subdomain ditemukan untuk github.com: 0
+[2026-02-09 13:46:50] [8/27] Scan domain: spotify.com
+[2026-02-09 13:46:50] Subdomain ditemukan untuk spotify.com: 0
+[2026-02-09 13:46:50] [9/27] Scan domain: shopee.com
+[2026-02-09 13:46:50] Subdomain ditemukan untuk shopee.com: 0
+[2026-02-09 13:46:50] [10/27] Scan domain: tokopedia.com
+[2026-02-09 13:46:50] Subdomain ditemukan untuk tokopedia.com: 0
+[2026-02-09 13:46:50] [11/27] Scan domain: kominfo.go.id
+[2026-02-09 13:46:50] Subdomain ditemukan untuk kominfo.go.id: 0
+[2026-02-09 13:46:50] [12/27] Scan domain: gojek.com
+[2026-02-09 13:46:50] Subdomain ditemukan untuk gojek.com: 0
+[2026-02-09 13:46:50] [13/27] Scan domain: grab.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk grab.com: 0
+[2026-02-09 13:46:51] [14/27] Scan domain: traveloka.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk traveloka.com: 0
+[2026-02-09 13:46:51] [15/27] Scan domain: detik.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk detik.com: 0
+[2026-02-09 13:46:51] [16/27] Scan domain: cnnindonesia.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk cnnindonesia.com: 0
+[2026-02-09 13:46:51] [17/27] Scan domain: microsoft.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk microsoft.com: 0
+[2026-02-09 13:46:51] [18/27] Scan domain: apple.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk apple.com: 0
+[2026-02-09 13:46:51] [19/27] Scan domain: amazon.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk amazon.com: 0
+[2026-02-09 13:46:51] [20/27] Scan domain: cloudflare.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk cloudflare.com: 0
+[2026-02-09 13:46:51] [21/27] Scan domain: intel.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk intel.com: 0
+[2026-02-09 13:46:51] [22/27] Scan domain: ibm.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk ibm.com: 0
+[2026-02-09 13:46:51] [23/27] Scan domain: oracle.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk oracle.com: 0
+[2026-02-09 13:46:51] [24/27] Scan domain: paypal.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk paypal.com: 0
+[2026-02-09 13:46:51] [25/27] Scan domain: linkedin.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk linkedin.com: 0
+[2026-02-09 13:46:51] [26/27] Scan domain: mozilla.org
+[2026-02-09 13:46:51] Subdomain ditemukan untuk mozilla.org: 0
+[2026-02-09 13:46:51] [27/27] Scan domain: ubuntu.com
+[2026-02-09 13:46:51] Subdomain ditemukan untuk ubuntu.com: 0
+[2026-02-09 13:46:51] Total subdomain unik: 0
+========== RECON START ==========
+Started at: 2026-02-09 13:48:22
+[2026-02-09 13:48:22] [1/27] Scan domain: facebook.com
+[2026-02-09 13:48:22] Subdomain ditemukan untuk facebook.com: 0
+[2026-02-09 13:48:22] [2/27] Scan domain: twitter.com
+[2026-02-09 13:48:22] Subdomain ditemukan untuk twitter.com: 0
+[2026-02-09 13:48:22] [3/27] Scan domain: adobe.com
+[2026-02-09 13:48:22] Subdomain ditemukan untuk adobe.com: 0
+[2026-02-09 13:48:22] [4/27] Scan domain: akamai.com
+[2026-02-09 13:48:22] Subdomain ditemukan untuk akamai.com: 0
+[2026-02-09 13:48:22] [5/27] Scan domain: zoom.us
+[2026-02-09 13:48:23] Subdomain ditemukan untuk zoom.us: 0
+[2026-02-09 13:48:23] [6/27] Scan domain: tesla.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk tesla.com: 0
+[2026-02-09 13:48:23] [7/27] Scan domain: github.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk github.com: 0
+[2026-02-09 13:48:23] [8/27] Scan domain: spotify.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk spotify.com: 0
+[2026-02-09 13:48:23] [9/27] Scan domain: shopee.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk shopee.com: 0
+[2026-02-09 13:48:23] [10/27] Scan domain: tokopedia.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk tokopedia.com: 0
+[2026-02-09 13:48:23] [11/27] Scan domain: kominfo.go.id
+[2026-02-09 13:48:23] Subdomain ditemukan untuk kominfo.go.id: 0
+[2026-02-09 13:48:23] [12/27] Scan domain: gojek.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk gojek.com: 0
+[2026-02-09 13:48:23] [13/27] Scan domain: grab.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk grab.com: 0
+[2026-02-09 13:48:23] [14/27] Scan domain: traveloka.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk traveloka.com: 0
+[2026-02-09 13:48:23] [15/27] Scan domain: detik.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk detik.com: 0
+[2026-02-09 13:48:23] [16/27] Scan domain: cnnindonesia.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk cnnindonesia.com: 0
+[2026-02-09 13:48:23] [17/27] Scan domain: microsoft.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk microsoft.com: 0
+[2026-02-09 13:48:23] [18/27] Scan domain: apple.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk apple.com: 0
+[2026-02-09 13:48:23] [19/27] Scan domain: amazon.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk amazon.com: 0
+[2026-02-09 13:48:23] [20/27] Scan domain: cloudflare.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk cloudflare.com: 0
+[2026-02-09 13:48:23] [21/27] Scan domain: intel.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk intel.com: 0
+[2026-02-09 13:48:23] [22/27] Scan domain: ibm.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk ibm.com: 0
+[2026-02-09 13:48:23] [23/27] Scan domain: oracle.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk oracle.com: 0
+[2026-02-09 13:48:23] [24/27] Scan domain: paypal.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk paypal.com: 0
+[2026-02-09 13:48:23] [25/27] Scan domain: linkedin.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk linkedin.com: 0
+[2026-02-09 13:48:23] [26/27] Scan domain: mozilla.org
+[2026-02-09 13:48:23] Subdomain ditemukan untuk mozilla.org: 0
+[2026-02-09 13:48:23] [27/27] Scan domain: ubuntu.com
+[2026-02-09 13:48:23] Subdomain ditemukan untuk ubuntu.com: 0
+[2026-02-09 13:48:23] Total subdomain unik: 0
+========== RECON START ==========
+Started at: 2026-02-09 13:49:46
+[2026-02-09 13:49:46] [1/27] Scan domain: facebook.com
+[2026-02-09 13:52:02] Subdomain ditemukan untuk facebook.com: 35186
+[2026-02-09 13:52:02] [2/27] Scan domain: twitter.com
+[2026-02-09 13:52:35] Subdomain ditemukan untuk twitter.com: 10281
+[2026-02-09 13:52:35] [3/27] Scan domain: adobe.com
+[2026-02-09 13:54:31] Subdomain ditemukan untuk adobe.com: 24554
+[2026-02-09 13:54:31] [4/27] Scan domain: akamai.com
+[2026-02-09 13:57:52] Subdomain ditemukan untuk akamai.com: 48608
+[2026-02-09 13:57:52] [5/27] Scan domain: zoom.us
+[2026-02-09 13:59:21] Subdomain ditemukan untuk zoom.us: 120737
+[2026-02-09 13:59:21] [6/27] Scan domain: tesla.com
+[2026-02-09 13:59:42] Subdomain ditemukan untuk tesla.com: 1238
+[2026-02-09 13:59:42] [7/27] Scan domain: github.com
+[2026-02-09 14:00:04] Subdomain ditemukan untuk github.com: 19730
+[2026-02-09 14:00:04] [8/27] Scan domain: spotify.com
+[2026-02-09 14:00:12] Subdomain ditemukan untuk spotify.com: 3177
+[2026-02-09 14:00:12] [9/27] Scan domain: shopee.com
+[2026-02-09 14:00:28] Subdomain ditemukan untuk shopee.com: 778
+[2026-02-09 14:00:28] [10/27] Scan domain: tokopedia.com
+[2026-02-09 14:00:40] Subdomain ditemukan untuk tokopedia.com: 476
+[2026-02-09 14:00:40] [11/27] Scan domain: kominfo.go.id
+[2026-02-09 14:01:01] Subdomain ditemukan untuk kominfo.go.id: 368
+[2026-02-09 14:01:01] [12/27] Scan domain: gojek.com
+[2026-02-09 14:01:13] Subdomain ditemukan untuk gojek.com: 55
+[2026-02-09 14:01:13] [13/27] Scan domain: grab.com
+[2026-02-09 14:02:12] Subdomain ditemukan untuk grab.com: 8001
+[2026-02-09 14:02:12] [14/27] Scan domain: traveloka.com
+[2026-02-09 14:02:16] Subdomain ditemukan untuk traveloka.com: 1006
+[2026-02-09 14:02:16] [15/27] Scan domain: detik.com
+[2026-02-09 14:02:30] Subdomain ditemukan untuk detik.com: 1098
+[2026-02-09 14:02:30] [16/27] Scan domain: cnnindonesia.com
+[2026-02-09 14:02:37] Subdomain ditemukan untuk cnnindonesia.com: 24
+[2026-02-09 14:02:37] [17/27] Scan domain: microsoft.com
+[2026-02-09 14:03:02] Subdomain ditemukan untuk microsoft.com: 9150
+[2026-02-09 14:03:02] [18/27] Scan domain: apple.com
+[2026-02-09 14:03:30] Subdomain ditemukan untuk apple.com: 44622
+[2026-02-09 14:03:30] [19/27] Scan domain: amazon.com
+[2026-02-09 14:04:24] Subdomain ditemukan untuk amazon.com: 63455
+[2026-02-09 14:04:24] [20/27] Scan domain: cloudflare.com
+[2026-02-09 14:05:00] Subdomain ditemukan untuk cloudflare.com: 18488
+[2026-02-09 14:05:00] [21/27] Scan domain: intel.com
+[2026-02-09 14:05:17] Subdomain ditemukan untuk intel.com: 14361
+[2026-02-09 14:05:17] [22/27] Scan domain: ibm.com
+[2026-02-09 14:06:06] Subdomain ditemukan untuk ibm.com: 427298
+[2026-02-09 14:06:06] [23/27] Scan domain: oracle.com
+[2026-02-09 14:06:39] Subdomain ditemukan untuk oracle.com: 4522
+[2026-02-09 14:06:39] [24/27] Scan domain: paypal.com
+[2026-02-09 14:07:11] Subdomain ditemukan untuk paypal.com: 7994
+[2026-02-09 14:07:11] [25/27] Scan domain: linkedin.com
+[2026-02-09 14:07:40] Subdomain ditemukan untuk linkedin.com: 11702
+[2026-02-09 14:07:40] [26/27] Scan domain: mozilla.org
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 14:08:05[0m
+[1;32m[2026-02-09 14:08:05] [1/27] Scan domain: facebook.com[0m
+[2026-02-09 14:08:14] Subdomain ditemukan untuk mozilla.org: 2206
+[2026-02-09 14:08:14] [27/27] Scan domain: ubuntu.com
+[2026-02-09 14:08:21] Subdomain ditemukan untuk ubuntu.com: 475
+[2026-02-09 14:08:21] Total subdomain unik: 2681
+[2026-02-09 14:08:21] Probing live hosts...
+[1;33m[2026-02-09 14:08:28] Subdomain ditemukan untuk facebook.com: 33556[0m
+[1;32m[2026-02-09 14:08:28] [2/27] Scan domain: twitter.com[0m
+[1;33m[2026-02-09 14:08:40] Subdomain ditemukan untuk twitter.com: 10217[0m
+[1;32m[2026-02-09 14:08:40] [3/27] Scan domain: adobe.com[0m
+[1;33m[2026-02-09 14:08:50] Subdomain ditemukan untuk adobe.com: 24491[0m
+[1;32m[2026-02-09 14:08:50] [4/27] Scan domain: akamai.com[0m
+[1;33m[2026-02-09 14:09:00] Subdomain ditemukan untuk akamai.com: 48595[0m
+[1;32m[2026-02-09 14:09:00] [5/27] Scan domain: zoom.us[0m
+[1;33m[2026-02-09 14:09:21] Subdomain ditemukan untuk zoom.us: 114245[0m
+[1;32m[2026-02-09 14:09:21] [6/27] Scan domain: tesla.com[0m
+[1;33m[2026-02-09 14:09:36] Subdomain ditemukan untuk tesla.com: 1236[0m
+[1;32m[2026-02-09 14:09:36] [7/27] Scan domain: github.com[0m
+[2026-02-09 14:09:43] Total live hosts: 2054
+========== RINGKASAN ==========
+Total domain diproses : 27
+Total subdomain unik  : 2681
+Total host hidup      : 2054
+Durasi proses         : 1197 detik
+Recon selesai pada    : 2026-02-09 14:09:43
+================================
+[1;33m[2026-02-09 14:09:52] Subdomain ditemukan untuk github.com: 19730[0m
+[1;32m[2026-02-09 14:09:52] [8/27] Scan domain: spotify.com[0m
+[1;33m[2026-02-09 14:10:00] Subdomain ditemukan untuk spotify.com: 3177[0m
+[1;32m[2026-02-09 14:10:00] [9/27] Scan domain: shopee.com[0m
+[1;33m[2026-02-09 14:10:19] Subdomain ditemukan untuk shopee.com: 713[0m
+[1;32m[2026-02-09 14:10:19] [10/27] Scan domain: tokopedia.com[0m
+[1;33m[2026-02-09 14:10:24] Subdomain ditemukan untuk tokopedia.com: 475[0m
+[1;32m[2026-02-09 14:10:24] [11/27] Scan domain: kominfo.go.id[0m
+[1;33m[2026-02-09 14:10:43] Subdomain ditemukan untuk kominfo.go.id: 367[0m
+[1;32m[2026-02-09 14:10:43] [12/27] Scan domain: gojek.com[0m
+[1;33m[2026-02-09 14:11:09] Subdomain ditemukan untuk gojek.com: 52[0m
+[1;32m[2026-02-09 14:11:09] [13/27] Scan domain: grab.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 14:20:45[0m
+[1;32m[2026-02-09 14:20:45] [1/27] Scan domain: facebook.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 14:21:20[0m
+[1;32m[2026-02-09 14:21:20] [1/27] Scan domain: facebook.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 14:33:16[0m
+[1;32m[2026-02-09 14:33:16] [1/27] Scan domain: facebook.com[0m
+[1;33m[2026-02-09 14:34:13] Subdomain ditemukan untuk facebook.com: 33687[0m
+[1;32m[2026-02-09 14:34:13] [2/27] Scan domain: twitter.com[0m
+[1;33m[2026-02-09 14:34:24] Subdomain ditemukan untuk twitter.com: 10281[0m
+[1;32m[2026-02-09 14:34:24] [3/27] Scan domain: adobe.com[0m
+[1;33m[2026-02-09 14:36:32] Subdomain ditemukan untuk adobe.com: 24553[0m
+[1;32m[2026-02-09 14:36:32] [4/27] Scan domain: akamai.com[0m
+[1;33m[2026-02-09 14:39:55] Subdomain ditemukan untuk akamai.com: 48606[0m
+[1;32m[2026-02-09 14:39:55] [5/27] Scan domain: zoom.us[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 15:03:27[0m
+[1;32m[2026-02-09 15:03:27] [1/27] Scan domain: facebook.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 15:17:37[0m
+[1;32m[2026-02-09 15:17:37] [1/27] Scan domain: facebook.com[0m
+[1;33m[2026-02-09 15:19:57] Subdomain ditemukan untuk facebook.com: 35174[0m
+[1;32m[2026-02-09 15:19:57] [2/27] Scan domain: twitter.com[0m
+[1;33m[2026-02-09 15:20:13] Subdomain ditemukan untuk twitter.com: 10281[0m
+[1;32m[2026-02-09 15:20:13] [3/27] Scan domain: adobe.com[0m
+[1;33m[2026-02-09 15:22:08] Subdomain ditemukan untuk adobe.com: 24553[0m
+[1;32m[2026-02-09 15:22:08] [4/27] Scan domain: akamai.com[0m
+[1;33m[2026-02-09 15:25:28] Subdomain ditemukan untuk akamai.com: 48606[0m
+[1;32m[2026-02-09 15:25:28] [5/27] Scan domain: zoom.us[0m
+[1;33m[2026-02-09 15:26:28] Subdomain ditemukan untuk zoom.us: 118670[0m
+[1;32m[2026-02-09 15:26:28] [6/27] Scan domain: tesla.com[0m
+[1;33m[2026-02-09 15:26:40] Subdomain ditemukan untuk tesla.com: 1236[0m
+[1;32m[2026-02-09 15:26:40] [7/27] Scan domain: github.com[0m
+[1;33m[2026-02-09 15:26:50] Subdomain ditemukan untuk github.com: 19728[0m
+[1;32m[2026-02-09 15:26:50] [8/27] Scan domain: spotify.com[0m
+[1;33m[2026-02-09 15:27:02] Subdomain ditemukan untuk spotify.com: 3177[0m
+[1;32m[2026-02-09 15:27:02] [9/27] Scan domain: shopee.com[0m
+[1;33m[2026-02-09 15:27:17] Subdomain ditemukan untuk shopee.com: 953[0m
+[1;32m[2026-02-09 15:27:17] [10/27] Scan domain: tokopedia.com[0m
+[1;33m[2026-02-09 15:27:23] Subdomain ditemukan untuk tokopedia.com: 475[0m
+[1;32m[2026-02-09 15:27:23] [11/27] Scan domain: kominfo.go.id[0m
+[1;33m[2026-02-09 15:27:38] Subdomain ditemukan untuk kominfo.go.id: 367[0m
+[1;32m[2026-02-09 15:27:38] [12/27] Scan domain: gojek.com[0m
+[1;33m[2026-02-09 15:27:46] Subdomain ditemukan untuk gojek.com: 52[0m
+[1;32m[2026-02-09 15:27:46] [13/27] Scan domain: grab.com[0m
+[1;33m[2026-02-09 15:28:15] Subdomain ditemukan untuk grab.com: 5680[0m
+[1;32m[2026-02-09 15:28:15] [14/27] Scan domain: traveloka.com[0m
+[1;33m[2026-02-09 15:28:24] Subdomain ditemukan untuk traveloka.com: 1004[0m
+[1;32m[2026-02-09 15:28:24] [15/27] Scan domain: detik.com[0m
+[1;33m[2026-02-09 15:28:33] Subdomain ditemukan untuk detik.com: 1103[0m
+[1;32m[2026-02-09 15:28:33] [16/27] Scan domain: cnnindonesia.com[0m
+[1;33m[2026-02-09 15:28:39] Subdomain ditemukan untuk cnnindonesia.com: 19[0m
+[1;32m[2026-02-09 15:28:39] [17/27] Scan domain: microsoft.com[0m
+[1;33m[2026-02-09 15:28:50] Subdomain ditemukan untuk microsoft.com: 8068[0m
+[1;32m[2026-02-09 15:28:50] [18/27] Scan domain: apple.com[0m
+[1;33m[2026-02-09 15:29:03] Subdomain ditemukan untuk apple.com: 44622[0m
+[1;32m[2026-02-09 15:29:03] [19/27] Scan domain: amazon.com[0m
+[1;33m[2026-02-09 15:29:36] Subdomain ditemukan untuk amazon.com: 63455[0m
+[1;32m[2026-02-09 15:29:36] [20/27] Scan domain: cloudflare.com[0m
+[1;33m[2026-02-09 15:30:04] Subdomain ditemukan untuk cloudflare.com: 18474[0m
+[1;32m[2026-02-09 15:30:04] [21/27] Scan domain: intel.com[0m
+[1;33m[2026-02-09 15:30:24] Subdomain ditemukan untuk intel.com: 14361[0m
+[1;32m[2026-02-09 15:30:24] [22/27] Scan domain: ibm.com[0m
+[1;33m[2026-02-09 15:31:16] Subdomain ditemukan untuk ibm.com: 427349[0m
+[1;32m[2026-02-09 15:31:16] [23/27] Scan domain: oracle.com[0m
+[1;33m[2026-02-09 15:31:46] Subdomain ditemukan untuk oracle.com: 4424[0m
+[1;32m[2026-02-09 15:31:46] [24/27] Scan domain: paypal.com[0m
+[1;33m[2026-02-09 15:32:04] Subdomain ditemukan untuk paypal.com: 7947[0m
+[1;32m[2026-02-09 15:32:04] [25/27] Scan domain: linkedin.com[0m
+[1;33m[2026-02-09 15:32:27] Subdomain ditemukan untuk linkedin.com: 11670[0m
+[1;32m[2026-02-09 15:32:27] [26/27] Scan domain: mozilla.org[0m
+[1;33m[2026-02-09 15:32:38] Subdomain ditemukan untuk mozilla.org: 2206[0m
+[1;32m[2026-02-09 15:32:38] [27/27] Scan domain: ubuntu.com[0m
+[1;33m[2026-02-09 15:33:10] Subdomain ditemukan untuk ubuntu.com: 475[0m
+[1;36m[2026-02-09 15:33:10] Total subdomain unik: 874129[0m
+[1;34m[2026-02-09 15:33:10] Probing live hosts...[0m
+[1;32m[2026-02-09 15:49:48] Total live hosts: 79[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 16:11:48[0m
+[1;32m[2026-02-09 16:11:48] [1/9] Scan domain: tesla.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 16:19:03[0m
+[1;32m[2026-02-09 16:19:03] [1/9] Scan domain: tesla.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 16:21:22[0m
+[1;32m[2026-02-09 16:21:22] [1/9] Scan domain: tesla.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 16:22:27[0m
+[1;32m[2026-02-09 16:22:27] [1/9] Scan domain: tesla.com[0m
+[1;33m[2026-02-09 16:22:55] Subdomain ditemukan untuk tesla.com: 1240[0m
+[1;32m[2026-02-09 16:22:55] [2/9] Scan domain: github.com[0m
+[1;33m[2026-02-09 16:23:37] Subdomain ditemukan untuk github.com: 19730[0m
+[1;32m[2026-02-09 16:23:37] [3/9] Scan domain: shopee.com[0m
+[1;33m[2026-02-09 16:23:54] Subdomain ditemukan untuk shopee.com: 953[0m
+[1;32m[2026-02-09 16:23:54] [4/9] Scan domain: tokopedia.com[0m
+[1;33m[2026-02-09 16:24:10] Subdomain ditemukan untuk tokopedia.com: 475[0m
+[1;32m[2026-02-09 16:24:10] [5/9] Scan domain: gojek.com[0m
+[1;33m[2026-02-09 16:24:27] Subdomain ditemukan untuk gojek.com: 52[0m
+[1;32m[2026-02-09 16:24:27] [6/9] Scan domain: traveloka.com[0m
+[1;33m[2026-02-09 16:25:00] Subdomain ditemukan untuk traveloka.com: 1019[0m
+[1;32m[2026-02-09 16:25:00] [7/9] Scan domain: detik.com[0m
+[1;33m[2026-02-09 16:25:15] Subdomain ditemukan untuk detik.com: 1172[0m
+[1;32m[2026-02-09 16:25:15] [8/9] Scan domain: cnnindonesia.com[0m
+[1;33m[2026-02-09 16:25:24] Subdomain ditemukan untuk cnnindonesia.com: 19[0m
+[1;32m[2026-02-09 16:25:24] [9/9] Scan domain: mozilla.org[0m
+[1;33m[2026-02-09 16:26:07] Subdomain ditemukan untuk mozilla.org: 2206[0m
+[1;36m[2026-02-09 16:26:07] Total subdomain unik: 26866[0m
+[1;34m[2026-02-09 16:26:07] Probing live hosts...[0m
+[1;32m[2026-02-09 16:34:50] Total live hosts: 3223[0m
+[1;34m========== RINGKASAN ==========[0m
+[1;36mTotal domain diproses : 9[0m
+[1;36mTotal subdomain unik  : 26866[0m
+[1;36mTotal host hidup      : 3223[0m
+[1;36mDurasi proses         : 743 detik[0m
+[1;32mRecon selesai pada    : 2026-02-09 16:34:50[0m
+[1;33m================================[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 16:37:50[0m
+[1;32m[2026-02-09 16:37:50] [1/9] Scan domain: tesla.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 16:55:54[0m
+[1;32m[2026-02-09 16:55:54] [1/9] Scan domain: tesla.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 17:00:58[0m
+[1;32m[2026-02-09 17:00:58] [1/9] Scan domain: tesla.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 17:02:38[0m
+[1;32m[2026-02-09 17:02:38] [1/9] Scan domain: tesla.com[0m
+[1;32m[2026-02-09 17:04:42] [2/9] Scan domain: github.com[0m
+[1;32m[2026-02-09 17:10:11] [3/9] Scan domain: shopee.com[0m
+[1;32m[2026-02-09 17:11:36] [4/9] Scan domain: tokopedia.com[0m
+[1;32m[2026-02-09 17:12:31] [5/9] Scan domain: gojek.com[0m
+[1;32m[2026-02-09 17:13:18] [6/9] Scan domain: traveloka.com[0m
+[1;32m[2026-02-09 17:14:07] [7/9] Scan domain: detik.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 17:15:39[0m
+[1;32m[2026-02-09 17:15:39] [1/9] Scan domain: tesla.com[0m
+[1;32m[2026-02-09 17:17:13] [2/9] Scan domain: github.com[0m
+[1;32m[2026-02-09 17:18:55] [3/9] Scan domain: shopee.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 17:22:16[0m
+[1;32m[2026-02-09 17:22:16] [1/9] Scan domain: tesla.com[0m
+[1;32m[2026-02-09 17:24:08] [2/9] Scan domain: github.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 17:24:42[0m
+[1;32m[2026-02-09 17:24:42] [1/9] Scan domain: tesla.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 17:28:10[0m
+[1;32m[2026-02-09 17:28:10] [1/9] Scan domain: tesla.com[0m
+[1;32m[2026-02-09 17:29:32] [3/9] Scan domain: shopee.com[0m
+[1;32m[2026-02-09 17:31:02] [4/9] Scan domain: tokopedia.com[0m
+[1;32m[2026-02-09 17:32:18] [5/9] Scan domain: gojek.com[0m
+[1;32m[2026-02-09 17:33:03] [6/9] Scan domain: traveloka.com[0m
+[1;32m[2026-02-09 17:33:46] [7/9] Scan domain: detik.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 17:44:10[0m
+[1;32m[2026-02-09 17:44:10] [1/9] Scan domain: tesla.com[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 17:45:19[0m
+[1;32m[2026-02-09 17:45:19] [1/7] Scan domain: shopee.com[0m
+[1;32m[2026-02-09 17:46:32] [2/7] Scan domain: tokopedia.com[0m
+[1;32m[2026-02-09 17:47:28] [3/7] Scan domain: gojek.com[0m
+[1;32m[2026-02-09 17:47:58] [4/7] Scan domain: traveloka.com[0m
+[1;32m[2026-02-09 17:48:54] [5/7] Scan domain: detik.com[0m
+[1;32m[2026-02-09 17:50:16] [6/7] Scan domain: cnnindonesia.com[0m
+[1;32m[2026-02-09 17:50:33] [7/7] Scan domain: mozilla.org[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 20:40:15[0m
+[1;34m========== RECON START ==========[0m
+[1;36mStarted at: 2026-02-09 20:41:58[0m
+[1;32m[2026-02-09 20:41:58] [1/7] Scan domain: shopee.com[0m
+[1;34m[2026-02-09 20:42:08] Probing live hosts for shopee.com...[0m
+[1;32m[2026-02-09 20:43:06] [2/7] Scan domain: tokopedia.com[0m
+[1;34m[2026-02-09 20:44:06] Probing live hosts for tokopedia.com...[0m
+[1;32m[2026-02-09 20:45:52] [3/7] Scan domain: gojek.com[0m
+[1;34m[2026-02-09 20:46:00] Probing live hosts for gojek.com...[0m
+[1;32m[2026-02-09 20:46:23] [4/7] Scan domain: traveloka.com[0m
+[1;34m[2026-02-09 20:46:31] Probing live hosts for traveloka.com...[0m
+[1;32m[2026-02-09 20:47:13] [5/7] Scan domain: detik.com[0m
+[1;34m[2026-02-09 20:47:30] Probing live hosts for detik.com...[0m
+[1;32m[2026-02-09 20:48:57] [6/7] Scan domain: cnnindonesia.com[0m
+[1;34m[2026-02-09 20:49:17] Probing live hosts for cnnindonesia.com...[0m
+[1;32m[2026-02-09 20:49:38] [7/7] Scan domain: mozilla.org[0m
+[1;34m[2026-02-09 20:50:10] Probing live hosts for mozilla.org...[0m
+[1;32m[2026-02-09 20:51:06] Beres! Cek folder ../output[0m
