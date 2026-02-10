@@ -205,7 +205,10 @@ Script menampilkan:
 ##  8. Screenshots
 
 Tambahkan screenshot berikut:
+### 📸 8. Screenshots
 
+* **[Figure 1. Input Domains](./Screenshots/01.%20Input-Domains/01-Input.txt.png)**
+  ![Input Domains](./Screenshots/01.%20Input-Domains/01-Input.tx.png)
 **Figure 1. Recon automation execution**
 
 ```
