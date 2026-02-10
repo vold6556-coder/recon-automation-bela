@@ -233,6 +233,7 @@ Script menampilkan:
 
 <br>
 <br>
+
 > **Deskripsi:** Setelah selesai scan akan muncul table summary hasil recon yang rapi.
 <img src="Screenshots/02. Recon-Proses-Berjalan/03-proses-recon.png" width="800" alt="Execution">
 
@@ -296,7 +297,7 @@ Script menampilkan:
 > **Deskripsi:** Rekaman seluruh aktivitas proses scan (`progress-log.txt`) dari awal hingga selesai.
 <br>
 <img src="Screenshots/04. Logs/02-progress-log-1.txt.png" width="800" alt="Progress Log 1">
-<img src="Screenshots/04. Logs/02-progress-log-2.txt.png" width="800" alt="Progress Log 2">
+<img src="Screenshots/04. Logs/02-progress.log-2.txt.png" width="800" alt="Progress Log 2">
 
 </details>
 ---
