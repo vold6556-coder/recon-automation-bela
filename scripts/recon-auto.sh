@@ -74,7 +74,7 @@ START_TIME=$(date +%s)
 mkdir -p "$GLOBAL_LOG_DIR"
 mkdir -p "$BASE_OUTPUT"
 
-# aktifkan global session logging
+# Aktifin global session logging: Semua output terminal (stdout & stderr) akan otomatis dicatat ke file log sambil tetap tampil di layar.
 exec > >(tee -a "$LOG_FILE") 2> >(tee -a "$ERR_FILE" >&2)
 
 # inisialisasi file biar gak error pas proses bikin tabel
@@ -134,7 +134,8 @@ done
 # Pastikan path sudah terupdate untuk session ini
 export PATH=$PATH:$(go env GOPATH)/bin
 
-# mulai looping buat scan daftar domain
+# mulai looping buat scan daftar domain menggunakan file descriptor 3 biar ga bentrok 
+# pake  input dari tool subfinder/httpx di fitur loop.
 while read -u 3 -r line; do
     domain=$(echo "$line" | tr -d '\r' | xargs)
     [[ -z "$domain" ]] && continue
@@ -148,14 +149,15 @@ while read -u 3 -r line; do
     DOMAIN_SUBS="$DOMAIN_DIR/subs.txt"
     DOMAIN_LIVE="$DOMAIN_DIR/live.txt"
 
-    # Cari subdomain
-    subfinder -d "$domain" -silent 2>>"$ERR_FILE" | sort -u > "$DOMAIN_SUBS"
+    # Cari subdomain & pake anew biar ga duplicate subsnya
+    subfinder -d "$domain" -silent 2>>"$ERR_FILE" \
+    | sort -u \
+   | tee "$DOMAIN_SUBS" \
+    | anew "$SUBDOMAIN_OUTPUT" > /dev/null
 
-    FOUND=$(cat "$DOMAIN_SUBS" | wc -l)
 
-    if [ "$FOUND" -gt 0 ]; then
-        cat "$DOMAIN_SUBS" | anew "$SUBDOMAIN_OUTPUT" >/dev/null
-    fi
+    FOUND=$(wc -l < "$DOMAIN_SUBS")
+
 
     # Simpen dulu buat diolah jadi tabel nanti
     echo "$domain|$FOUND" >> "${DOMAIN_SUMMARY}.tmp"
@@ -165,7 +167,10 @@ while read -u 3 -r line; do
     if [ "$FOUND" -gt 0 ]; then
         echo -e "${BLUE}[$(time_now)] Probing live hosts for $domain...${NC}"
         # Menampilkan output httpx langsung ke terminal (stderr dibuang ke file error)
-        httpx -l "$DOMAIN_SUBS" -status-code -title -silent 2>>"$ERR_FILE" | tee "$DOMAIN_LIVE" | anew "$LIVE_ALL"
+        httpx -l "$DOMAIN_SUBS" -status-code -title -silent 2>>"$ERR_FILE" \
+        | tee "$DOMAIN_LIVE" \
+        | anew "$LIVE_ALL" > /dev/null
+
         LIVE_COUNT=$(cat "$DOMAIN_LIVE" | wc -l)
     fi
 
