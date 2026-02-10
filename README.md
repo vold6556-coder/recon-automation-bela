@@ -202,31 +202,103 @@ Script menampilkan:
 
 ---
 
-##  8. Screenshots
+## 📸 8. Screenshots
 
-Tambahkan screenshot berikut:
-### 📸 8. Screenshots
+### 1. Input Domains 
+<details>
+<summary><b>Klik di sini untuk melihat dokumentasi hasil (Screenshots)</b></summary>
+<br>
 
-* **[Figure 1. Input Domains](./Screenshots/01.%20Input-Domains/01-Input.txt.png)**
-  ![Input Domains](./Screenshots/01.%20Input-Domains/01-Input.tx.png)
-**Figure 1. Recon automation execution**
+> **Deskripsi:** Tahap awal memasukkan daftar target ke dalam file `domains.txt`.
+<br>
+<img src="Screenshots/01.%20Input%20Domains/01-input.txt.png" width="800" alt="Input Domains">
 
-```
-![Execution](screenshots/execution.png)
-```
+</details>
 
-**Figure 2. Live hosts discovered**
+---
 
-```
-![Live Hosts](screenshots/live-hosts.png)
-```
+### 2. Execution Process
+<details>
+<summary><b>Klik di sini untuk melihat dokumentasi hasil (Screenshots)</b></summary>
+<br>
 
-**Figure 3. Output directory structure**
+> **Deskripsi:** Proses jalannya script automation recon di terminal.
+<br>
+<img src="Screenshots/02. Recon-Proses-Berjalan/01-proses-recon.png" width="800" alt="Execution">
+<br>
+<br>
 
-```
-![Directory](screenshots/tree.png)
-```
+> **Deskripsi:** Setiap selesai scan suatu domain akan muncul total subdomainnya.
+<img src="Screenshots/02. Recon-Proses-Berjalan/02-proses-recon.png" width="800" alt="Execution">
 
+<br>
+<br>
+> **Deskripsi:** Setelah selesai scan akan muncul table summary hasil recon yang rapi.
+<img src="Screenshots/02. Recon-Proses-Berjalan/03-proses-recon.png" width="800" alt="Execution">
+
+</details>
+
+---
+
+### 3. Hasil Output 
+<details>
+<summary><b>Klik di sini untuk melihat dokumentasi hasil (Screenshots)</b></summary>
+<br>
+
+> **Deskripsi:** Hasil output dari auto recon. Setiap kali dijalankan, script otomatis membuat folder baru dengan format timestamp `recon_DayMonth_HourMinute` untuk mencegah data tertimpa.
+<img src="Screenshots/03. Ouput-Hasil-Recon/01-output.png" width="800" alt="Output Folder">
+<br>
+<br>
+
+> **Deskripsi:** Hasil recon semua subdomain yang aktif/live (`all-live.txt`).
+<img src="Screenshots/03. Ouput-Hasil-Recon/02-output-1-all-live.txt.png" width="800" alt="All Live 1">
+<img src="Screenshots/03. Ouput-Hasil-Recon/02-output-2-all-live.txt.png" width="800" alt="All Live 2">
+<br>
+<br>
+
+> **Deskripsi:** List gabungan semua subdomain unik yang berhasil ditemukan (`all-subdomains.txt`).
+<br>
+<img src="Screenshots/03. Ouput-Hasil-Recon/03-output-1-all-subdomains.txt.png" width="800" alt="All Subs 1">
+<img src="Screenshots/03. Ouput-Hasil-Recon/03-output-2-all-subdomains.txt.png" width="800" alt="All Subs 2">
+
+<br>
+<br>
+
+> **Deskripsi:** Ringkasan statistik total subdomain per domain (`domain-summary.txt`).
+
+<img src="Screenshots/03. Ouput-Hasil-Recon/04-output-domain-summary.txt.png" width="800" alt="Summary">
+<br>
+<br>
+
+> **Deskripsi:** Hasil spesifik per domain (Contoh: `example.com`). Selain hasil global, tersedia folder khusus per domain untuk memudahkan analisa mendalam.
+<br>
+<img src="Screenshots/03. Ouput-Hasil-Recon/05-output-1-example.com-live.txt.png" width="800" alt="Individual Live">
+<img src="Screenshots/03. Ouput-Hasil-Recon/05-output-2-example.com-live.txt.png" width="800" alt="Individual Live 2">
+<br>
+<br>
+<img src="Screenshots/03. Ouput-Hasil-Recon/05-output-2.1-example.com-subs.txt.png" width="800" alt="Individual Subs">
+<img src="Screenshots/03. Ouput-Hasil-Recon/05-output-2.2-example.com-subs.txt.png" width="800" alt="Individual Subs 2">
+<br>
+<br>
+
+### 4. Logs
+<details>
+<summary><b>Klik di sini untuk melihat dokumentasi hasil (Screenshots)</b></summary>
+<br>
+
+> **Deskripsi:** Rekaman log kesalahan (`errors-log.txt`) untuk keperluan debugging jika terjadi kendala pada tools.
+
+<img src="Screenshots/04. Logs/01-errors-log.txt.png" width="800" alt="Error Logs">
+
+<br>
+<br>
+
+> **Deskripsi:** Rekaman seluruh aktivitas proses scan (`progress-log.txt`) dari awal hingga selesai.
+<br>
+<img src="Screenshots/04. Logs/02-progress-log-1.txt.png" width="800" alt="Progress Log 1">
+<img src="Screenshots/04. Logs/02-progress-log-2.txt.png" width="800" alt="Progress Log 2">
+
+</details>
 ---
 
 ## 👤 Author
