@@ -338,10 +338,11 @@ Dokumentasi proses input domain, proses tools berjalan, dokumentasi output serta
 ---
 
 ## 9. Kesimpulan
-
-Melalui proyek ini, penulis berhasil membangun sebuah tool otomasi reconnaissance berbasis Bash yang mampu menjalankan proses enumerasi subdomain dan validasi host aktif secara end-to-end. Tool ini mengintegrasikan beberapa recon tools populer ke dalam satu pipeline terstruktur dengan sistem logging dan output yang rapi.
+Melalui proyek ini, saya berhasil membuat sebuah tool automation reconnaissance berbasis Bash untuk membantu proses pencarian subdomain dan pengecekan host aktif secara lebih cepat dan terstruktur. Dengan menggabungkan beberapa tools reconnaissance ke dalam satu script, proses information gathering menjadi lebih efisien dan hasilnya lebih rapi untuk dianalisis.
 
 Selain menghasilkan data recon yang siap digunakan untuk tahap lanjutan (seperti vulnerability assessment atau penetration testing), proyek ini juga memberikan pemahaman praktis mengenai pengelolaan input/output, deduplikasi data, serta pentingnya error handling dalam otomasi security tooling. Tool ini diharapkan dapat menjadi fondasi awal untuk pengembangan otomasi recon yang lebih kompleks di masa mendatang.
+
+Selama pengerjaan, saya menyadari bahwa tantangan utama bukan hanya menjalankan tools, tetapi mengelola hasilnya agar tidak duplikat, mudah dibaca, dan terdokumentasi dengan baik. Dari proyek ini, penulis memperoleh pemahaman praktis mengenai alur reconnaissance, pentingnya logging, serta pengelolaan output dalam otomasi keamanan.
 
 ## 👤 Author
 
