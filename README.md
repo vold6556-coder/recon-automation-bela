@@ -1,22 +1,22 @@
-# 🛡️ Automated Recon & Subdomain Discovery Tool
+# Automated Reconnaissance Tools
 
 **Author:** Bela Agustina
 
-**Project Category:** Cyber Security – Information Gathering Automation
+**Project Category:** Cyber Security – Reconnaissance Automation
 
-**Repository:** `recon-automation-bella`
+**Repository:** `recon-automation-bela`
 
 ---
 
-## 📝 1. Project Title & Description
+## 1. Project Title & Description
 
 **Recon-Automation-Bella** adalah tool otomasi berbasis Bash untuk mempercepat fase **Reconnaissance** pada pengujian keamanan web. Tool ini mengintegrasikan beberapa OSINT tools populer untuk menemukan subdomain dan memvalidasi host aktif secara massal dengan sistem logging dan reporting terstruktur.
 
-### 🎯 Tujuan Utama
+### Tujuan Utama
 
 Meningkatkan efisiensi waktu dalam proses pengumpulan aset domain selama tahap information gathering.
 
-### ⭐ Fitur Unggulan
+### Fitur Unggulan
 
 * Instalasi tools otomatis
 * Enumerasi subdomain terintegrasi
@@ -50,8 +50,8 @@ recon-automation-belaagustina/
 │       │   └── live.txt         # Host aktif domain tersebut
 │       │
 │       ├── tesla.com/           # Hasil khusus domain tesla.com
-│       │   ├── subs.txt
-│       │   └── live.txt
+│       │   ├── subs.txt         # Subdomain domain tersebut
+│       │   └── live.txt         # Host aktif domain tersebut
 │       │
 │       └── logs/                # Catatan proses
 │           ├── progress.log     # Log aktivitas script
@@ -60,7 +60,7 @@ recon-automation-belaagustina/
 └── README.md                    # Dokumentasi project
 
 ```
-### 📌 Penjelasan Struktur
+###  Penjelasan Struktur
 
 | Path                                                                                                          | Fungsi                             |
 | ------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
@@ -84,7 +84,7 @@ Struktur ini memisahkan hasil **per target** sekaligus menyediakan **rekap globa
 
 ---
 
-## 🛠️ 3. Environment Setup
+##  3. Environment Setup
 
 Tool ini dirancang dengan konsep **Run and Go**.
 
@@ -135,10 +135,10 @@ export PATH=$PATH:$(go env GOPATH)/bin
 
 ---
 
-## 🚀 4. Cara Menjalankan Script
+##  4. Cara Menjalankan Script
 
 ```bash
-cd ~/recon-automation-bella
+cd ~/recon-automation-bela
 chmod +x scripts/recon-auto.sh
 ./scripts/recon-auto.sh
 ```
@@ -147,16 +147,19 @@ Script akan membuka terminal baru dan menjalankan proses scanning otomatis.
 
 ---
 
-## 📂 5. Contoh Input & Output
+##  5. Contoh Input & Output
 
 ### Input (`input/domains.txt`)
 
 ```
-google.com
-tesla.com
-example.com
-target.id
-sample.net
+shopee.com
+tokopedia.com
+gojek.com
+traveloka.com
+detik.com
+cnnindonesia.com
+mozilla.org
+                             
 ```
 
 ### Output yang Dihasilkan
@@ -172,7 +175,7 @@ sample.net
 
 ---
 
-## 🔍 6. Penjelasan Bagian Kode
+##  6. Penjelasan Bagian Kode
 
 | Modul                      | Fungsi                                                                                                       |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -188,7 +191,7 @@ sample.net
 
 ---
 
-## 📊 7. Final Output Metrics
+##  7. Final Output Metrics
 
 Script menampilkan:
 
@@ -199,7 +202,7 @@ Script menampilkan:
 
 ---
 
-## 🖥 8. Screenshots
+##  8. Screenshots
 
 Tambahkan screenshot berikut:
 
