@@ -1,2 +1,11 @@
 [2026-02-09 13:31:15] Tool subfinder belum terinstall!
 2026/02/09 20:42:13 Unsolicited response received on idle HTTP channel starting with "180.252.124.67"; err=<nil>
+touch: cannot touch '../output/recon_1002_1427/all-subdomains.txt': No such file or directory
+touch: cannot touch '../output/recon_1002_1427/all-live.txt': No such file or directory
+touch: cannot touch '../output/recon_1002_1427/domain-summary.txt': No such file or directory
+touch: cannot touch '../output/recon_1002_1444/all-subdomains.txt': No such file or directory
+touch: cannot touch '../output/recon_1002_1444/all-live.txt': No such file or directory
+touch: cannot touch '../output/recon_1002_1444/domain-summary.txt': No such file or directory
+touch: cannot touch '../output/recon_1002_1446/all-subdomains.txt': No such file or directory
+touch: cannot touch '../output/recon_1002_1446/all-live.txt': No such file or directory
+touch: cannot touch '../output/recon_1002_1446/domain-summary.txt': No such file or directory

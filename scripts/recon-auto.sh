@@ -44,8 +44,8 @@ colorize() {
 echo -e "${YELLOW}====================================================${NC}"
 echo -e "${GREEN}      ██████╗ ███████╗ ██████╗ ██████╗ ███╗    ██╗${NC}"
 echo -e "${GREEN}      ██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║${NC}"
-echo -e "${GREEN}      ██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║${NC}"
-echo -e "${GREEN}      ██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║${NC}"
+echo -e "${GREEN}      ██████╔╝█████╗  ██║      ██║   ██║██╔██╗ ██║${NC}"
+echo -e "${GREEN}      ██╔══██╗██╔══╝  ██║      ██║   ██║██║╚██╗██║${NC}"
 echo -e "${GREEN}      ██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║${NC}"
 echo -e "${GREEN}      ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝${NC}"
 echo -e "${CYAN}                RECON AUTOMATION TOOL${NC}"
@@ -57,30 +57,35 @@ sleep 1
 SCAN_ID=$(date "+%d%m_%H%M")
 DOMAIN_LIST="../input/domains.txt"
 BASE_OUTPUT="../output/recon_$SCAN_ID"
-LOG_DIR="$BASE_OUTPUT/logs"
 
+# semua log scan disimpan di folder utama project
+GLOBAL_LOG_DIR="../logs"
 SUBDOMAIN_OUTPUT="$BASE_OUTPUT/all-subdomains.txt"
 LIVE_ALL="$BASE_OUTPUT/all-live.txt"
 DOMAIN_SUMMARY="$BASE_OUTPUT/domain-summary.txt"
-LOG_FILE="$LOG_DIR/progress.log"
-ERR_FILE="$LOG_DIR/errors.log"
+LOG_FILE="$GLOBAL_LOG_DIR/progress.log"
+ERR_FILE="$GLOBAL_LOG_DIR/errors.log"
 
 # Bikin fungsi jam biar setiap aktivitas ada notenya kapan kejadian
 time_now() { date "+%Y-%m-%d %H:%M:%S"; }
 START_TIME=$(date +%s)
 
 # Bikin folder utama dan folder log
-mkdir -p "$LOG_DIR"
+mkdir -p "$GLOBAL_LOG_DIR"
+mkdir -p "$BASE_OUTPUT"
+
+# aktifkan global session logging
+exec > >(tee -a "$LOG_FILE") 2> >(tee -a "$ERR_FILE" >&2)
 
 # inisialisasi file biar gak error pas proses bikin tabel
 touch "$SUBDOMAIN_OUTPUT" "$LIVE_ALL" "$DOMAIN_SUMMARY"
 
-echo -e "${BLUE}========== RECON START ==========${NC}" | tee -a "$LOG_FILE"
-echo -e "${CYAN}Started at: $(time_now)${NC}" | tee -a "$LOG_FILE"
+echo -e "${BLUE}========== RECON START ==========${NC}"
+echo -e "${CYAN}Started at: $(time_now)${NC}"
 
 # cek domain list
 if [[ ! -s "$DOMAIN_LIST" ]]; then
-    echo -e "${RED}[$(time_now)] domains.txt tidak ada atau kosong!${NC}" | tee -a "$ERR_FILE"
+    echo -e "${RED}[$(time_now)] domains.txt tidak ada atau kosong!${NC}" >&2
     exit 1
 fi
 
@@ -90,7 +95,7 @@ COUNT=1
 # cek tools dan install otomatis kalau belum ada
 for tool in go subfinder httpx anew; do
     if ! command -v "$tool" >/dev/null 2>&1; then
-        echo -e "${YELLOW}[$(time_now)] Tool $tool tidak ditemukan. Mencoba install otomatis...${NC}" | tee -a "$LOG_FILE"
+        echo -e "${YELLOW}[$(time_now)] Tool $tool tidak ditemukan. Mencoba install otomatis...${NC}"
         case $tool in
             go)
                 # instal go
@@ -118,10 +123,10 @@ for tool in go subfinder httpx anew; do
 
         # Cek ulang setelah percobaan instal
         if ! command -v "$tool" >/dev/null 2>&1; then
-            echo -e "${RED}[$(time_now)] Gagal install $tool. Silakan install manual.${NC}" | tee -a "$ERR_FILE"
+            echo -e "${RED}[$(time_now)] Gagal install $tool. Silakan install manual.${NC}" >&2
             exit 1
         else
-            echo -e "${GREEN}[$(time_now)] $tool berhasil diinstall!${NC}" | tee -a "$LOG_FILE"
+            echo -e "${GREEN}[$(time_now)] $tool berhasil diinstall!${NC}"
         fi
     fi
 done
@@ -138,7 +143,7 @@ while read -u 3 -r line; do
     DOMAIN_DIR="$BASE_OUTPUT/$domain"
     mkdir -p "$DOMAIN_DIR"
 
-    echo -e "${GREEN}[$(time_now)] [$COUNT/$TOTAL_DOMAINS] Scan domain: $domain${NC}" | tee -a "$LOG_FILE"
+    echo -e "${GREEN}[$(time_now)] [$COUNT/$TOTAL_DOMAINS] Scan domain: $domain${NC}"
 
     DOMAIN_SUBS="$DOMAIN_DIR/subs.txt"
     DOMAIN_LIVE="$DOMAIN_DIR/live.txt"
@@ -227,8 +232,9 @@ done 3< "$DOMAIN_LIST"
 rm "${DOMAIN_SUMMARY}.tmp"
 
 # hitung total scan
-TOTAL_SUBS=$(grep -vE '^-|^[[:space:]]*$|^=|Kategori|Total|GLOBAL' "$SUBDOMAIN_OUTPUT" | wc -l)
-TOTAL_LIVE=$(grep -vE '^-|^[[:space:]]*$|^=|Kategori|Total|GLOBAL' "$LIVE_ALL" | wc -l)
+TOTAL_SUBS=$(grep -vE '^-|^[[:space:]]*$|^=|Kategori|Total|GLOBAL|logs|progress\.log|errors\.log' "$SUBDOMAIN_OUTPUT" | wc -l)
+TOTAL_LIVE=$(grep -vE '^-|^[[:space:]]*$|^=|Kategori|Total|GLOBAL|logs|progress\.log|errors\.log' "$LIVE_ALL" | wc -l)
+
 END_TIME=$(date +%s)
 DURATION=$((END_TIME - START_TIME))
 
@@ -258,7 +264,7 @@ sort -uo "$SUBDOMAIN_OUTPUT" "$SUBDOMAIN_OUTPUT"
 # recon result summary (tabel)
 echo ""
 echo -e "${YELLOW}┌──────────────────────────────────────────────────┐${NC}"
-echo -e "${YELLOW}│               RECON RESULT SUMMARY               │${NC}"
+echo -e "${YELLOW}│                RECON RESULT SUMMARY                │${NC}"
 echo -e "${YELLOW}├───────────────────────────┬──────────────────────┤${NC}"
 printf "${CYAN}│ %-25s │ %-20s ${CYAN}│${NC}\n" "Total Domain Diproses" "$TOTAL_DOMAINS"
 printf "${CYAN}│ %-25s │ %b" "Subdomain Unik Found" "$(colorize "$TOTAL_SUBS")"
