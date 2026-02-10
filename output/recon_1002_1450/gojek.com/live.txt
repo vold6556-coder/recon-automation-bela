@@ -1,0 +1,73 @@
+==========================================================
+ LIVE HOSTS FOR : gojek.com
+ Generated at   : 2026-02-10 14:56:10
+==========================================================
+
+https://developer.gojek.com [[33m302[0m]
+https://biztips-cms.gojek.com [[32m200[0m] [[36mWelcome to your Strapi app[0m]
+https://gocorp.gojek.com [[32m200[0m] [[36mGoCorp Web Portal[0m]
+https://fortknox.service.q.gojek.com [[33m307[0m]
+https://concierge.gojek.com [[32m200[0m] [[36mLog in - Concierge - Gojek[0m]
+https://cdn-site.gojek.com [[31m403[0m]
+https://email.mp.gojek.com [[31m404[0m]
+https://int-website-cms.gojek.com [[32m200[0m] [[36mWelcome to your Strapi app[0m]
+https://gamification-cdn.gojek.com [[31m403[0m]
+https://biztips.gojek.com [[32m200[0m] [[36mPusat Edukasi Partner GoFood[0m]
+https://int-website.gojek.com [[33m307[0m]
+https://ecommercetools-integration.gojek.com [[33m302[0m]
+https://biztips-cdn.gojek.com [[31m403[0m]
+http://gogan.gojek.com [[32m200[0m] [[36mL9L | Hong Kong-Inspired Metal Coin Coasters | 香港風格金屬硬幣杯墊[0m]
+https://hilangkanbatasan-staging.gojek.com [[31m404[0m] [[36m404[0m]
+https://gogan-beta.gojek.com [[31m403[0m] [[36m403[0m]
+https://fleetpartner.gojek.com [[32m200[0m] [[36mFleet Partner Portal[0m]
+https://integration.developer.gojek.com [[32m200[0m]
+http://internal-prime3.gojek.com [[33m301[0m]
+https://cartography-street-images-cdn.gojek.com [[32m200[0m]
+https://accounts-integration.gojek.com [[31m404[0m]
+https://i-integration.gojek.com [[32m200[0m]
+https://int-biztips-cdn.gojek.com [[31m403[0m]
+https://book.gojek.com [[33m307[0m]
+https://integration-gosend.gojek.com [[32m200[0m] [[36mGoSend Biz Web Booking[0m]
+https://fleetpartner-uat.gojek.com [[32m200[0m] [[36mFleet Partner Portal[0m]
+https://l.gojek.com [[33m302[0m]
+https://login.gojek.com [[32m200[0m] [[36mGojek[0m]
+https://integration-login.gojek.com [[33m302[0m]
+https://integration-concierge.gojek.com [[32m200[0m] [[36mLog in - Concierge - Gojek[0m]
+https://int-biztips.gojek.com [[32m200[0m] [[36mPusat Edukasi Mitra Usaha[0m]
+https://integration-developer.gojek.com [[33m302[0m]
+http://asphalt.gojek.com [[31m403[0m] [[36mERROR: The request could not be satisfied[0m]
+https://gofleetpartner-sg.gojek.com [[32m200[0m] [[36mFleet Partner Portal[0m]
+https://int-website-cdn.gojek.com [[31m403[0m]
+https://gocorp-integration.gojek.com [[32m200[0m] [[36mGoCorp Web Portal[0m]
+https://tcc-cp-app-cdn.gojek.com [[32m200[0m]
+https://email.gojek.com [[31m404[0m]
+https://email.reporting.mp.gojek.com [[31m404[0m]
+https://accounts.gojek.com [[31m404[0m]
+https://tcc-gocorp.gojek.com [[32m200[0m] [[36mGoCorp Web Portal[0m]
+https://tcc-int-cp-app-cdn.gojek.com [[32m200[0m]
+https://email.admin.gocorp.gojek.com [[31m404[0m]
+https://tcc-accounts.gojek.com [[31m404[0m]
+https://tcc-gocorp-integration.gojek.com [[32m200[0m] [[36mGoCorp Web Portal[0m]
+https://track.gojek.com [[32m200[0m] [[36mGojek | See My Trip[0m]
+https://integration-transport.gojek.com [[33m307[0m]
+https://tcc-track.gojek.com [[32m200[0m] [[36mGojek | See My Trip[0m]
+https://tcc-ecommercetools-integration.gojek.com [[31m404[0m]
+http://suara.gojek.com [[31m404[0m] [[36mError 404 (Not Found)!!1[0m]
+https://www.gojek.com [[33m307[0m]
+https://track-integration.gojek.com [[32m200[0m] [[36mGojek | See My Trip[0m]
+https://tcc-integration-concierge.gojek.com [[1;33m503[0m]
+https://web-production-gosend.gojek.com [[32m200[0m] [[36mGoSend Biz Web Booking[0m]
+https://tcc-integration-transport.gojek.com [[1;33m503[0m]
+https://tcc-integration-developer.gojek.com [[33m302[0m]
+https://site-norns.gojek.com [[32m200[0m] [[36mWelcome to your Strapi app[0m]
+https://verify74736.gojek.com [[31m404[0m]
+https://one.gojek.com [[33m301[0m]
+http://career.gojek.com [[1;33m503[0m] [[36m503 Service Temporarily Unavailable[0m]
+
+----------------------------------------------------------
+ RINGKASAN LIVE HOSTS
+----------------------------------------------------------
+| Kategori                       | Jumlah          |
+----------------------------------------------------------
+| Subdomain Aktif (Live)         | 60              |
+----------------------------------------------------------

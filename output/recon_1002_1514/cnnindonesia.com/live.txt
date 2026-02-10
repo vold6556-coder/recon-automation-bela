@@ -1,0 +1,44 @@
+==========================================================
+ LIVE HOSTS FOR : cnnindonesia.com
+ Generated at   : 2026-02-10 15:23:51
+==========================================================
+
+https://mobile-stat.cnnindonesia.com [[31m404[0m]
+https://polong.cnnindonesia.com [[32m200[0m]
+https://vod.cnnindonesia.com [[32m200[0m] [[36mWelcome to nginx![0m]
+https://cdn.cnnindonesia.com [[31m404[0m] [[36m404 Not Found[0m]
+https://rech.cnnindonesia.com [[31m404[0m]
+https://apicomment.cnnindonesia.com [[31m404[0m]
+https://awsimages.cnnindonesia.com [[31m404[0m] [[36m404 Not Found[0m]
+https://images.cnnindonesia.com [[31m404[0m] [[36m404 Not Found[0m]
+https://m.cnnindonesia.com [[33m301[0m]
+https://video.cnnindonesia.com [[31m401[0m] [[36m401 Authorization Required[0m]
+https://pa.cnnindonesia.com [[32m200[0m] [[36mTEAMS : Performance Appraisal[0m]
+https://api.cnnindonesia.com [[33m301[0m] [[36m301 Moved Permanently[0m]
+https://apps.cnnindonesia.com [[31m403[0m] [[36m403 Forbidden[0m]
+https://live.cnnindonesia.com [[32m200[0m] [[36mWelcome to nginx![0m]
+https://internship.cnnindonesia.com [[32m200[0m] [[36mInternship CNN Indonesia[0m]
+https://app.cnnindonesia.com [[32m200[0m] [[36mAplikasi Mobile CNN Indonesia[0m]
+https://collent.cnnindonesia.com [[31m404[0m]
+https://comment.cnnindonesia.com [[31m404[0m]
+https://stat.cnnindonesia.com [[31m404[0m]
+https://recg.cnnindonesia.com [[31m404[0m]
+https://cdnv.cnnindonesia.com [[31m404[0m] [[36m404 Not Found[0m]
+https://streamaws.cnnindonesia.com [[1;33m503[0m]
+https://connect.cnnindonesia.com [[33m302[0m]
+https://www.cnnindonesia.com [[32m200[0m] [[36mCNN Indonesia | Berita Terbaru, Terkini Indonesia, Dunia[0m]
+https://kontributor.cnnindonesia.com [[32m200[0m] [[36mCNN CMS Contributor[0m]
+https://push.cnnindonesia.com [[31m403[0m] [[36m403 Forbidden[0m]
+https://karir.cnnindonesia.com [[32m200[0m] [[36mKarir CNN Indonesia[0m]
+https://beta.cnnindonesia.com [[32m200[0m] [[36mCNN Indonesia | Berita Terbaru, Terkini Indonesia, Dunia[0m]
+https://hc.cnnindonesia.com [[32m200[0m]
+https://ngobrol.cnnindonesia.com [[33m301[0m] [[36m301 Moved Permanently[0m]
+https://alpha.cnnindonesia.com [[31m403[0m] [[36m403 Forbidden[0m]
+
+----------------------------------------------------------
+ RINGKASAN LIVE HOSTS
+----------------------------------------------------------
+| Kategori                       | Jumlah          |
+----------------------------------------------------------
+| Subdomain Aktif (Live)         | 31              |
+----------------------------------------------------------
