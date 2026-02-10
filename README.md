@@ -334,6 +334,12 @@ Script menampilkan:
 </details>
 ---
 
+## 9. Kesimpulan
+
+Melalui proyek ini, penulis berhasil membangun sebuah tool otomasi reconnaissance berbasis Bash yang mampu menjalankan proses enumerasi subdomain dan validasi host aktif secara end-to-end. Tool ini mengintegrasikan beberapa recon tools populer ke dalam satu pipeline terstruktur dengan sistem logging dan output yang rapi.
+
+Selain menghasilkan data recon yang siap digunakan untuk tahap lanjutan (seperti vulnerability assessment atau penetration testing), proyek ini juga memberikan pemahaman praktis mengenai pengelolaan input/output, deduplikasi data, serta pentingnya error handling dalam otomasi security tooling. Tool ini diharapkan dapat menjadi fondasi awal untuk pengembangan otomasi recon yang lebih kompleks di masa mendatang.
+
 ## 👤 Author
 
 **Bela Agustina**
