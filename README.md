@@ -13,8 +13,15 @@
 **Recon-Automation-Bella** adalah tool otomasi berbasis Bash untuk mempercepat fase **Reconnaissance** pada pengujian keamanan web. Tool ini mengintegrasikan beberapa OSINT tools populer untuk menemukan subdomain dan memvalidasi host aktif secara massal dengan sistem logging dan reporting terstruktur.
 
 ### Tujuan Utama
+Tahap reconnaissance merupakan bagian penting dalam penetration testing. Jika dilakukan secara manual, proses ini bisa memakan waktu lama dan hasilnya sering kali tidak konsisten.
 
-Meningkatkan efisiensi waktu dalam proses pengumpulan aset domain selama tahap information gathering.
+Script ini dibuat untuk mengotomatisasi proses recon awal dengan tujuan:
+- Mengumpulkan subdomain secara pasif
+- Menyimpan hanya hasil yang unik
+- Mencatat seluruh proses eksekusi melalui logging
+- Menjaga struktur output tetap rapi per domain target
+
+Fokus utama tool ini adalah Meningkatkan efisiensi waktu dalam proses pengumpulan aset domain selama tahap information gathering.
 
 ### Fitur Unggulan
 
@@ -104,8 +111,9 @@ recon-automation-belaagustina/
 | 📄 `errors.log`                                                                                       | Log error kalau ada trouble |
 | 📄 [`README.md`](https://github.com/vold6556-coder/recon-automation-bela/blob/main/README.md)                 | Dokumentasi project                |
 
-Struktur ini memisahkan hasil **per target** sekaligus menyediakan **rekap global**, seperti workflow profesional di environment SOC/pentest.
-
+**Tool memisahkan:**
+- hasil global (gabungan semua domain)
+- hasil per-domain untuk analisis mendalam
 ---
 
 ##  3. Environment Setup
